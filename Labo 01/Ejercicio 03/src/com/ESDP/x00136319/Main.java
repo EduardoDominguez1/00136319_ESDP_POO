@@ -15,15 +15,28 @@ public class Main {
         scan.nextLine();
         int x = 1;
         int cont = 1;
-        nosejaja(n, x, cont);
+        FunRecursiva(n, x, cont);
     }
 
-    static void nosejaja(int n, int x, int cont) {
+    static void FunRecursiva(int n, int x, int cont) {
         if (x < n && cont < n) {
             System.out.println(x);
             x++;
             cont++;
-            nosejaja(n, x, cont);
+            FunRecursiva(n, x, cont);
         }
+        else if(x==n){
+            System.out.println(x);
+            x--;
+            FunRecursiva(n,x,cont);
+            cont++;
+        }
+        else if(x < n && x > 0){
+            System.out.println(x);
+            x--;
+            FunRecursiva(n,x,cont);
+        }
+        else if(x==0)
+            return;
     }
 }
