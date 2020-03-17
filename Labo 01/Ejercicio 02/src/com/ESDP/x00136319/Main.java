@@ -13,19 +13,16 @@ public class Main {
         System.out.println(palindrome());
     }
     static boolean palindrome() {
-        boolean Pal = true;
+        boolean Pal = false;
         System.out.println("Ingrese una palabra");
         Scanner scan = new Scanner(System.in);
         String palabra = scan.nextLine();
 
-        int fin = palabra.length() - 1;
-        int ini = 0;
+        StringBuilder sb = new StringBuilder();
+        sb.append(palabra);
 
-        int tamano = palabra.length();
-        for (int i = 0; i < tamano; i++) {
-            if (palabra.charAt(i) != palabra.equalsIgnoreCase(palabra.charAt(tamano - i - 1)))
-                Pal = false;
-        }
+        if (sb.reverse().toString().equalsIgnoreCase(palabra))
+            Pal = true;
         return Pal;
     }
 }
