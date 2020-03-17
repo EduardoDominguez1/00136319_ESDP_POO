@@ -12,11 +12,16 @@ public class Main {
         System.out.println("Ingrese el valor hasta el que se aplicara la serie Fibonacci");
 
         int n = scan.nextInt();
-        scan.nextInt();
+        scan.nextLine();
         int fibo = 1;
         int fibo2 = 2;
         int aux = 0;
 
+        for(int i = 0; i < n; i++){
+            System.out.println(fibo);
+            aux = fibo + fibo2;
+            fibo = fibo2;
+            fibo2 = aux;
         }
     }
-
+}
