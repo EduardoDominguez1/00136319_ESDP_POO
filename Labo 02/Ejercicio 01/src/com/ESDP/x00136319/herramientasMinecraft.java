@@ -2,7 +2,7 @@ package com.ESDP.x00136319;
 
 public class herramientasMinecraft {
     private String tool, mat;
-    private double attack, durability, Dps; //Dps= damage per second
+    private double attack, durability, Dps; //dps= damage per second
 
     public herramientasMinecraft(String tool, String mat, double attack, double durability, double dps) {
         this.tool = tool;
