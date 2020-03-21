@@ -12,17 +12,8 @@ public class herramientasMinecraft {
         Dps = dps;
     }
 
-    public void AddTool(){
-        System.out.println("Agregar una herramienta");
-    }
-    public void ConsultAllTools(){
-
-    }
-    public void ConsultToolOneType(){
-
-    }
     //Metodos
-    public void (){
+    public void ChopMats(){
         System.out.println("Talando. . .");
 
     }
