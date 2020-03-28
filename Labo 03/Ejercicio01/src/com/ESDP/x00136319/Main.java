@@ -1,6 +1,7 @@
 package com.ESDP.x00136319;
 
 import javax.swing.*;
+import java.io.PipedOutputStream;
 import java.util.ArrayList;
 
 public class Main {
@@ -20,6 +21,7 @@ public class Main {
                     String placa = JOptionPane.showInputDialog(null, "Num. Placa: ");
                     hora = Integer.parseInt(JOptionPane.showInputDialog(null, "Hora de entrada (Ingrese formato militar) "));
                     Parqueo.add(new Ticket(placa, hora));
+                    tiempos.setHoraEntrada(hora);
                     break;
                 case 2:
                     String SacarAuto = JOptionPane.showInputDialog(null, "Auto a sacar: ");
@@ -67,26 +69,25 @@ public class Main {
     static double CalcularTotal(int Tiempo) {
 
         double total = 0.0;
-        if(Tiempo <= 30) {
-            total += 0;
-            JOptionPane .showMessageDialog(null, "Es Gratis!!");
-            return 0;
-        } else if (Tiempo >= 100 && Tiempo < 200) {
-            total += 0.50;
-            Cobro(total);
-            return 0.50;
-        } else if (Tiempo >= 200 && Tiempo <= 230) {
-            total += 1.00;
-            Cobro(total);
-            return 1.00;
-        } else if (Tiempo >= 230) {
-            total += 5.00;
-            Cobro(total);
-            return 5.00;
-        }
+        if (Tiempo <= 30) {
+                total = 0;
+                JOptionPane.showMessageDialog(null, "Es Gratis!!");
+            return total;
+            } else if (Tiempo >= 100 && Tiempo < 200) {
+                total = 0.50;
+                Cobro(total);
+            return total;
+            } else if (Tiempo >= 200 && Tiempo <= 230) {
+                total = 1.00;
+                Cobro(total);
+            return total;
+            } else if (Tiempo >= 230) {
+                total = 5.00;
+                Cobro(total);
+            return total;
+            }
         return total;
     }
-
     static void Cobro(double total) {
         float valorMoneda;
         double Sumapaga = 0.0, vuelto;
