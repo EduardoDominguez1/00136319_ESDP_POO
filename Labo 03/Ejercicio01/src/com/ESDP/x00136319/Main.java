@@ -23,8 +23,6 @@ public class Main {
                     break;
                 case 2:
                     String SacarAuto = JOptionPane.showInputDialog(null, "Auto a sacar: ");
-                    double total = 0;
-                    Moneda gasto = new Moneda(total);
                     for (Ticket compara : Parqueo) {
                         if (compara.getAutoingresado().equals(SacarAuto)) {
 
@@ -32,21 +30,24 @@ public class Main {
                             int t1 = tiempos.getHoraEntrada();
                             int t2 = salida;
                             int t3 = tiempos.CalcularTiempo(t1,t2);
-                            ganancias = CalcularTotal(t3);
+                            double aux = CalcularTotal(t3);
+                            ganancias += aux;
                             Parqueo.removeIf(s -> s.getAutoingresado().equals(SacarAuto));
-
+                            JOptionPane.showMessageDialog(null, "Buen viaje!");
+                            break;
                         } else
                             JOptionPane.showMessageDialog(null, "Placa no encontrada");
                     }
-
                     break;
                 case 3:
+                    String VerTicket = JOptionPane.showInputDialog(null, "Ingrese la placa a buscar");
                     if (Parqueo.size() == 0) {
                         JOptionPane.showMessageDialog(null, "No hay tickets");
                     } else {
-                        Parqueo.forEach(s ->
-                                JOptionPane.showMessageDialog(null, s.toString())
-                        );
+                        for(Ticket s : Parqueo){
+                            if(s.getAutoingresado().equalsIgnoreCase(VerTicket));
+                            JOptionPane.showMessageDialog(null, s.toString());
+                        }
                     }
                     break;
                 case 4:
@@ -65,21 +66,21 @@ public class Main {
 
     static double CalcularTotal(int Tiempo) {
 
-        double total = 0;
-        if (Tiempo <= 30) {
-            total = 0;
-            Cobro(total);
+        double total = 0.0;
+        if(Tiempo <= 30) {
+            total += 0;
+            JOptionPane .showMessageDialog(null, "Es Gratis!!");
             return 0;
         } else if (Tiempo >= 100 && Tiempo < 200) {
-            total = 0.50;
+            total += 0.50;
             Cobro(total);
             return 0.50;
         } else if (Tiempo >= 200 && Tiempo <= 230) {
-            total = 1.00;
+            total += 1.00;
             Cobro(total);
             return 1.00;
         } else if (Tiempo >= 230) {
-            total = 5.00;
+            total += 5.00;
             Cobro(total);
             return 5.00;
         }
@@ -88,18 +89,17 @@ public class Main {
 
     static void Cobro(double total) {
         float valorMoneda;
-        double Sumapaga = 0, vuelto = 0, ganancia = 0;
+        double Sumapaga = 0.0, vuelto;
 
         while (Sumapaga < total) {
-            valorMoneda = Float.parseFloat(JOptionPane.showInputDialog("Ingrese monedas 1 por 1(Las denominaciones pueden ser $0.05,$0.10,$0.25,$1.00)"));
+            valorMoneda = Float.parseFloat(JOptionPane.showInputDialog("Total a pagar: $"+ total + "\nLLevas: $" + Sumapaga +"\nIngrese monedas 1 por 1(Las denominaciones pueden ser $0.05,$0.10,$0.25,$1.00)"));
             Sumapaga += valorMoneda;
-            JOptionPane.showMessageDialog(null, Sumapaga);
+            //JOptionPane.showMessageDialog(null, Sumapaga);
         }
         if (Sumapaga > total) {
             vuelto = Sumapaga - total;
             JOptionPane.showMessageDialog(null, "Su cambio es de: $" + vuelto);
-        } else {
-            JOptionPane.showMessageDialog(null, "Pago realizado correctamente");
         }
+        return;
     }
 }

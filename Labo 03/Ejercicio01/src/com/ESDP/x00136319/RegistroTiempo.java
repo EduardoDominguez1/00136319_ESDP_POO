@@ -21,7 +21,9 @@ public class RegistroTiempo {
     }
 
     public int CalcularTiempo(int t1,int t2){
-         int tiempoParqueo = 0;
+        HoraEntrada=t1;
+        HoraSalida=t2;
+        int tiempoParqueo = 0;
             tiempoParqueo = HoraSalida - HoraEntrada;
         return tiempoParqueo;
     }

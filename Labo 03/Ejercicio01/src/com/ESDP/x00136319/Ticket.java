@@ -16,7 +16,12 @@ public class Ticket {
     public RegistroTiempo getEstadia() {
         return estadia;
     }
-    public String toSting(){
-        return "Ticket\n Automovil: "+getAutoingresado() + ", Hora de entrada: " +estadia.getHoraEntrada();
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "Placa = " + autoingresado+ '\'' +
+                ", Hora de entrada = " + estadia.getHoraEntrada() +
+                '}';
     }
 }
