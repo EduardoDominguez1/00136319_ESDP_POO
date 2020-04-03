@@ -12,4 +12,8 @@ abstract class Item {
         this.wheight = wheight;
         this.description = description;
     }
+
+    public int getId() {
+        return id;
+    }
 }
