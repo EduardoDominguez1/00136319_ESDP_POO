@@ -10,6 +10,6 @@ abstract class ReusableItem extends Item{
         JOptionPane.showMessageDialog(null, "Se ha reducido la cantidad de usos a : ");
     }
     public boolean use(){
-
+    return true;
     }
 }
