@@ -16,6 +16,20 @@ public class Potion extends HealthItem{
     }
 
     @Override
+    public String toString() {
+        return "Potion{" +
+                "amount=" + amount +
+                ", reuseTime=" + reuseTime +
+                ", level='" + level + '\'' +
+                ", type='" + type + '\'' +
+                ", ID=" + id +
+                ", wheight=" + wheight +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
+    @Override
     public void drink(){
         JOptionPane.showMessageDialog(null, "Tomando la poti ");
     }

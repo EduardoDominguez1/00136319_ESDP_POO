@@ -12,6 +12,7 @@ abstract class Item {
         this.wheight = wheight;
         this.description = description;
     }
+    public abstract String toString();
 
     public int getId() {
         return id;

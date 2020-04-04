@@ -27,6 +27,22 @@ public class Weapon extends ReusableItem {
         this.level = level;
     }
 
+    @Override
+    public String toString() {
+        return "Weapon{" +
+                "type='" + type + '\'' +
+                ", speed=" + speed +
+                ", damage=" + damage +
+                ", wieldType='" + wieldType + '\'' +
+                ", level=" + level +
+                ", remainingUses=" + remainingUses +
+                ", id=" + id +
+                ", wheight=" + wheight +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
     public void upgrade(){
         JOptionPane.showMessageDialog(null, "Tu " + type + " sube de nivel :D");
         level++;

@@ -15,6 +15,18 @@ public class Ammo extends ReusableItem {
         this.equipped = equipped;
     }
 
+    @Override
+    public String toString() {
+        return "Ammo{" +
+                "equipped=" + equipped +
+                ", remainingUses=" + remainingUses +
+                ", id=" + id +
+                ", wheight=" + wheight +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
     public void equip(){
         equipped = true;
     }

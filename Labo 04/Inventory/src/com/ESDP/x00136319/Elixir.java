@@ -19,6 +19,21 @@ public class Elixir extends HealthItem {
     }
 
     @Override
+    public String toString() {
+        return "Elixir{" +
+                "amount=" + amount +
+                ", time=" + time +
+                ", reuseTime=" + reuseTime +
+                ", level='" + level + '\'' +
+                ", type='" + type + '\'' +
+                ", id=" + id +
+                ", wheight=" + wheight +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
+    @Override
     public void drink(){ //Cures over time
         JOptionPane.showMessageDialog(null, "Tomando Elixir :O ");
     }
