@@ -7,7 +7,7 @@ namespace Ejercicio_01
         static void Main(string[] args)
         {
             //Realiza un programa que a traves de un solo for imprima los primeros n terminos de fibonacci
-            Console.WriteLine("Labo 01 - Ejercicio 01");
+            Console.WriteLine("Labo 05 - Ejercicio 01");
 
             Console.WriteLine("Ingrese el valor hasta el que se aplicara la serie Fibonacci");
             int n = 0;
