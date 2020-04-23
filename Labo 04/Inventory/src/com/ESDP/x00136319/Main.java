@@ -14,9 +14,12 @@ public class Main {
         String name, description, level, type,wieldType;
         boolean equipped;
         double speed, damage;
+
+
+
+
         do {
             op = Integer.parseInt(JOptionPane.showInputDialog(null, mostarMenu()));
-
             switch (op) {
                 case 1:
                     //Agregados en PersonalItems por defecto
@@ -291,3 +294,6 @@ public class Main {
     }
 
 }
+
+
+
