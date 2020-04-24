@@ -1,0 +1,5 @@
+C:\Users\Edu1\Desktop\LabosPOO\Ejercicios Meet\Meet2304\Meet2304\bin\Debug\Meet2304.exe
+C:\Users\Edu1\Desktop\LabosPOO\Ejercicios Meet\Meet2304\Meet2304\bin\Debug\Meet2304.pdb
+C:\Users\Edu1\Desktop\LabosPOO\Ejercicios Meet\Meet2304\Meet2304\obj\Debug\Meet2304.csprojAssemblyReference.cache
+C:\Users\Edu1\Desktop\LabosPOO\Ejercicios Meet\Meet2304\Meet2304\obj\Debug\Meet2304.exe
+C:\Users\Edu1\Desktop\LabosPOO\Ejercicios Meet\Meet2304\Meet2304\obj\Debug\Meet2304.pdb
