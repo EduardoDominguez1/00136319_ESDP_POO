@@ -1,7 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e71e1062-3bd8-413b-996c-2b92bfeb1d37" name="Default Changelist" comment="" />
+    <list default="true" id="497ee015-0eec-4268-b429-92f277aecc40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/.idea/.idea.Ejercicio 01/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 01/.idea/.idea.Ejercicio 01/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/Ejercicio 01.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/Ejercicio 01.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/bin/Debug/netcoreapp3.1/Ejercicio 01.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/bin/Debug/netcoreapp3.1/Ejercicio 01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/bin/Debug/netcoreapp3.1/Ejercicio 01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/bin/Debug/netcoreapp3.1/Ejercicio 01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/bin/Debug/netcoreapp3.1/Ejercicio 01.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/bin/Debug/netcoreapp3.1/Ejercicio 01.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Debug/netcoreapp3.1/Ejercicio 01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Ejercicio 01.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Ejercicio 01.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Ejercicio 01.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/Ejercicio 01.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 01/Ejercicio 01/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/.idea/.idea.Ejercicio 02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 02/.idea/.idea.Ejercicio 02/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/Ejercicio 02.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/Ejercicio 02.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/bin/Debug/netcoreapp3.1/Ejercicio 02.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/bin/Debug/netcoreapp3.1/Ejercicio 02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/bin/Debug/netcoreapp3.1/Ejercicio 02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/bin/Debug/netcoreapp3.1/Ejercicio 02.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/bin/Debug/netcoreapp3.1/Ejercicio 02.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/bin/Debug/netcoreapp3.1/Ejercicio 02.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Debug/netcoreapp3.1/Ejercicio 02.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Ejercicio 02.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Ejercicio 02.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Ejercicio 02.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/Ejercicio 02.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 02/Ejercicio 02/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ejercicio 03/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ejercicio 03/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ejercicio 03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ejercicio 03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 03.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/Ejercicio 03.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio 03/Ejercicio 03.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/bin/Debug/netcoreapp3.1/Ejercicio 03.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/bin/Debug/netcoreapp3.1/Ejercicio 03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/bin/Debug/netcoreapp3.1/Ejercicio 03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/bin/Debug/netcoreapp3.1/Ejercicio 03.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/bin/Debug/netcoreapp3.1/Ejercicio 03.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/bin/Debug/netcoreapp3.1/Ejercicio 03.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Debug/netcoreapp3.1/Ejercicio 03.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Ejercicio 03.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Ejercicio 03.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Ejercicio 03.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/Ejercicio 03.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 03/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/.idea/.idea.Ejercicio 04/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/Ejercicio 04.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/bin/Debug/netcoreapp3.1/Ejercicio 04.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/bin/Debug/netcoreapp3.1/Ejercicio 04.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/bin/Debug/netcoreapp3.1/Ejercicio 04.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/bin/Debug/netcoreapp3.1/Ejercicio 04.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/bin/Debug/netcoreapp3.1/Ejercicio 04.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/bin/Debug/netcoreapp3.1/Ejercicio 04.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Debug/netcoreapp3.1/Ejercicio 04.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Ejercicio 04.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Ejercicio 04.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Ejercicio 04.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/Ejercicio 04.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 04/Ejercicio 04/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.idea.Ejercicio 05/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.idea.Ejercicio 05/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.idea.Ejercicio 05/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.idea.Ejercicio 05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.idea.Ejercicio 05/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.idea.Ejercicio 05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/.idea/.idea.Ejercicio 05/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/Ejercicio 05.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/bin/Debug/netcoreapp3.1/Ejercicio 05.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/bin/Debug/netcoreapp3.1/Ejercicio 05.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/bin/Debug/netcoreapp3.1/Ejercicio 05.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/bin/Debug/netcoreapp3.1/Ejercicio 05.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/bin/Debug/netcoreapp3.1/Ejercicio 05.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/bin/Debug/netcoreapp3.1/Ejercicio 05.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Debug/netcoreapp3.1/Ejercicio 05.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Ejercicio 05.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Ejercicio 05.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Ejercicio 05.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/Ejercicio 05.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio 05/Ejercicio 05/obj/project.packagespec.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1axX5awwHvggBmeWoLbMNwnRh6b" />
+  <component name="ProjectId" id="1b161q7B0XI2k8TpmOODRrdsMTS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -47,7 +192,7 @@
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" enabled="true" />
@@ -59,12 +204,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e71e1062-3bd8-413b-996c-2b92bfeb1d37" name="Default Changelist" comment="" />
-      <created>1587678035955</created>
+      <changelist id="497ee015-0eec-4268-b429-92f277aecc40" name="Default Changelist" comment="" />
+      <created>1587787040607</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587678035955</updated>
-      <workItem from="1587678039416" duration="568000" />
+      <updated>1587787040607</updated>
+      <workItem from="1587787043853" duration="54000" />
     </task>
     <servers />
   </component>
@@ -74,21 +219,21 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1815" height="287" key="GridCell.Tab.0.bottom" timestamp="1587678608146">
-      <screen x="1920" y="0" width="1858" height="1080" />
+    <state width="1805" height="287" key="GridCell.Tab.0.bottom" timestamp="1587787098465">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
-    <state width="1815" height="287" key="GridCell.Tab.0.bottom/0.0.1848.1080/1920.0.1858.1080@1920.0.1858.1080" timestamp="1587678608146" />
-    <state width="1815" height="287" key="GridCell.Tab.0.center" timestamp="1587678608146">
-      <screen x="1920" y="0" width="1858" height="1080" />
+    <state width="1805" height="287" key="GridCell.Tab.0.bottom/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1587787098465" />
+    <state width="1805" height="287" key="GridCell.Tab.0.center" timestamp="1587787098465">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
-    <state width="1815" height="287" key="GridCell.Tab.0.center/0.0.1848.1080/1920.0.1858.1080@1920.0.1858.1080" timestamp="1587678608146" />
-    <state width="1815" height="287" key="GridCell.Tab.0.left" timestamp="1587678608146">
-      <screen x="1920" y="0" width="1858" height="1080" />
+    <state width="1805" height="287" key="GridCell.Tab.0.center/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1587787098465" />
+    <state width="1805" height="287" key="GridCell.Tab.0.left" timestamp="1587787098465">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
-    <state width="1815" height="287" key="GridCell.Tab.0.left/0.0.1848.1080/1920.0.1858.1080@1920.0.1858.1080" timestamp="1587678608146" />
-    <state width="1815" height="287" key="GridCell.Tab.0.right" timestamp="1587678608146">
-      <screen x="1920" y="0" width="1858" height="1080" />
+    <state width="1805" height="287" key="GridCell.Tab.0.left/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1587787098465" />
+    <state width="1805" height="287" key="GridCell.Tab.0.right" timestamp="1587787098465">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
-    <state width="1815" height="287" key="GridCell.Tab.0.right/0.0.1848.1080/1920.0.1858.1080@1920.0.1858.1080" timestamp="1587678608146" />
+    <state width="1805" height="287" key="GridCell.Tab.0.right/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1587787098465" />
   </component>
 </project>

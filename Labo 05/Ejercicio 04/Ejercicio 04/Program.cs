@@ -10,7 +10,7 @@ namespace Ejercicio_04
             Console.WriteLine("Labo 05 - Ejercicio 04");
             Console.WriteLine("Programa que remplace todos los caracteres A por un caracter B (no cambia minus si se pone mayus)");
             Console.Write("Ingrese una frase: ");
-                string frase = Console.ReadLine();
+            string frase = Console.ReadLine();
             Console.WriteLine("A continuacion: ");
             char a, b;
             Console.WriteLine("Ingrese el valor de las letras a cambiar");
@@ -18,7 +18,7 @@ namespace Ejercicio_04
             Console.WriteLine("Ingrese el valor por el cual cambiaran");
             b = Convert.ToChar(Console.ReadLine());
             Console.WriteLine("Cambiando las " + a + " por "+ b);
-                string fraseCambiada = frase.Replace(a, b);
+            string fraseCambiada = frase.Replace(a, b);
             Console.WriteLine(fraseCambiada);
         }
     }
