@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Ejercicio_01
 {
@@ -43,17 +44,81 @@ namespace Ejercicio_01
 
         public static void AgregarEvaluacion()
         {
-            Console.WriteLine("AgregandoXD");
+            int opcion = 0,TotalPorcentajes = 0;
+            String nombreAct,tipo;
+            int porcentaje, cantidadPreguntas;
+            DateTime fechaEntrega;
+            
+            Console.WriteLine("Agregando");
+            Console.WriteLine("Que tipo de evaluacion desea agregar:\n" +
+                              "1) Laboratorio\n" +
+                              "2) Parcial\n" +
+                              "3) Tarea");
+            opcion = Convert.ToInt32(Console.ReadLine());
+            if (opcion == 1)
+            {
+                Console.WriteLine("*A elegido agregar laboratorio*");
+                Console.Write("Ingrese el tipo: ");
+                    tipo = Console.ReadLine();
+                Console.Write("Ingrese el porcentaje de la actividad: ");
+                    porcentaje = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Ingrese el nombre del labo: ");
+                    nombreAct = Console.ReadLine();
+                Evaluaciones.Add(new Laboratorio(tipo,porcentaje,nombreAct));  //Se agrega la actividad labo a la lista
+                Console.WriteLine("Agregado correctamente :)\n");
+                
+            }else if (opcion == 2) 
+            {
+                Console.WriteLine("*A elegido agregar Parcial*");
+                Console.Write("Ingrese la cantidad de preguntas: ");
+                    cantidadPreguntas = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Ingrese el porcentaje de la actividad: ");
+                    porcentaje = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Ingrese el nombre del Parcial: ");
+                    nombreAct = Console.ReadLine();
+                Evaluaciones.Add(new Parcial(cantidadPreguntas,porcentaje,nombreAct));  //Se agrega la actividad Parcial a la lista
+                Console.WriteLine("Agregado correctamente :)\n");
+                
+
+            }else if (opcion == 3)
+            {
+                //Tarea, fecha de entrega, porcentaje, nombre.
+                Console.WriteLine("*A elegido agregar Tarea*");
+                Console.Write("Ingrese la fecha de entrega(Dia - Mes - Año): ");
+                fechaEntrega = Convert.ToDateTime(Console.ReadLine());
+                Console.Write("Ingrese el porcentaje de la actividad: ");
+                    porcentaje = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Ingrese el nombre de la Tarea: ");
+                    nombreAct = Console.ReadLine();
+                Evaluaciones.Add(new Tarea(fechaEntrega,porcentaje,nombreAct));  //Se agrega la actividad Tarea a la lista
+                Console.WriteLine("Agregado correctamente :)\n");
+                
+            }
+            else
+            {
+                Console.WriteLine("Opcion no valida");
+            }
         }
 
         public static void MostrarEvaluacionesAlmacenadas()
         {
-            Console.WriteLine("Mostrando");
+            int Totalporcentajes = 0;
+            Console.WriteLine("Mostrando evaluaciones almacenadas: ");
+            
+            
+            foreach (var Evaluacion in Evaluaciones)
+            {
+                Console.WriteLine(Evaluacion.ToString());
+                Totalporcentajes += Evaluacion.Porcentaje1;
+            }
+            
+            Console.WriteLine("Total de porcentajes: " +Totalporcentajes + "%\n");
         }
 
         public static void EliminarEvaluacion()
         {
             Console.WriteLine("Eliminando");
+            Console.WriteLine("Ingrese el nombre de la actividad a eliminar");
         }
     }
 }

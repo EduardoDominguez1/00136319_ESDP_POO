@@ -5,12 +5,10 @@ namespace Ejercicio_01
     public class Evaluacion
     {
         protected int porcentaje;
-        
         public int Porcentaje1 => porcentaje;
 
 
         protected String nombre;
-        
         public string Nombre => nombre;
 
 
@@ -20,6 +18,5 @@ namespace Ejercicio_01
             this.porcentaje = porcentaje;
             this.nombre = nombre;
         }
-
     }
 }

@@ -10,5 +10,10 @@ namespace Ejercicio_01
         {
             CantPreguntas = cantPreguntas;
         }
+        
+        public override string ToString()
+        {
+            return $"Parcial: {nameof(nombre)}: {nombre}, {nameof(CantPreguntas)}: {CantPreguntas}, {nameof(porcentaje)}: {porcentaje}";
+        }
     }
 }

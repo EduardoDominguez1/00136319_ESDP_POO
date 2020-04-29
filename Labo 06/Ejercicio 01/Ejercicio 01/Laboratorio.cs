@@ -10,5 +10,10 @@ namespace Ejercicio_01
         {
             this.tipo = tipo;
         }
+
+        public override string ToString()
+        {
+            return $"Laboratorio: {nameof(nombre)}: {nombre}, {nameof(tipo)}: {tipo}, {nameof(porcentaje)}: {porcentaje}";
+        }
     }
 }
