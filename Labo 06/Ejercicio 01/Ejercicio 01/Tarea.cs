@@ -14,7 +14,7 @@ namespace Ejercicio_01
 
         public override string ToString()
         {
-            return $"Laboratorio: {nameof(nombre)}: {nombre}, {nameof(fechaEntrega)}: {fechaEntrega}, {nameof(porcentaje)}: {porcentaje}";
+            return $"Laboratorio: {nameof(nombre)}: {nombre}, {nameof(fechaEntrega)}: {fechaEntrega.ToShortDateString()}, {nameof(porcentaje)}: {porcentaje}";
         }
     }
 }

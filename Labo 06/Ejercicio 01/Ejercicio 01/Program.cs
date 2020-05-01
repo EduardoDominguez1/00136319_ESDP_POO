@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Ejercicio_01
 {
@@ -24,7 +23,7 @@ namespace Ejercicio_01
                     op = Convert.ToInt32(Console.ReadLine());
                 }
                 catch (FormatException e){
-                    Console.WriteLine("*****ERROR INGRESE UN DATO VALIDO*****");
+                    Console.WriteLine("\n*****ERROR INGRESE UN DATO VALIDO*****\n");
                     op = 5;
                 }
                 switch (op)
@@ -37,7 +36,7 @@ namespace Ejercicio_01
                     }
                     catch (FormatException e)
                     {
-                        Console.WriteLine("ERROR: Ingreso un tipo no valido");
+                        Console.WriteLine("\nERROR: Ingreso un tipo de dato valido\n");
                     }catch (LimitedExceeded e)
                     {
                         Console.WriteLine(e.Message);
@@ -50,15 +49,25 @@ namespace Ejercicio_01
                     EliminarEvaluacion();
                     break;
                 case 4:
-                    Console.WriteLine("Se procedera a asignar las notas de las evaluaciones para calcular la nota final: ");
-                    Console.WriteLine("La Nota final: "+CalcularNota.Calcular(Evaluaciones));
-                    Console.WriteLine("Saliendo del programa....");
+                    try
+                    {
+                        Console.WriteLine("Se procedera a asignar las notas de las evaluaciones para calcular la nota final: ");
+                        Console.WriteLine("Se calculara la nota segun el porcentaje de las evaluaciones actuales: "+TotalPorcentaje+"%");
+                        Console.WriteLine("En caso de no llegar al 100% el resto de actividades se tomara como nota 0");
+                        Console.WriteLine("La Nota final: "+CalcularNota.Calcular(Evaluaciones));
+                        op = 6;
+                        Console.WriteLine("Saliendo del programa....");
+                    }
+                    catch (FormatException e)
+                    {
+                        Console.WriteLine("\nERROR: Ingreso un tipo de dato valido, volviendo al menu\n");
+                    }
                     break;
                 case 5: break;    //Caso por si ponen una letra tira hacia aqui para evitar otros bug
                 default: Console.WriteLine("Opcion Erronea!");
                     break; 
                 } 
-            }while (op != 4);
+            }while (op != 6);
         }
 
         public static void AgregarEvaluacion()
@@ -118,7 +127,7 @@ namespace Ejercicio_01
             {
                 //Tarea, fecha de entrega, porcentaje, nombre.
                 Console.WriteLine("*A elegido agregar Tarea*");
-                Console.Write("Ingrese la fecha de entrega(Dia - Mes - Año): ");
+                Console.Write("Ingrese la fecha de entrega(Mes / Dia / Año): ");
                 fechaEntrega = Convert.ToDateTime(Console.ReadLine());
                 Console.Write("Ingrese el porcentaje de la actividad: ");
                     porcentaje = Convert.ToInt32(Console.ReadLine());
@@ -162,20 +171,54 @@ namespace Ejercicio_01
             Console.Write("Ingrese el nombre de la actividad a eliminar: ");
                 string nombreAeliminar = Console.ReadLine();
                 Evaluacion aux = null;
-                int porcentajeARestar = 0;
+                int porcentajeARestar = 0, NombresRepetidos = 0;
                 foreach (var evaluacion in Evaluaciones)
                 {
-                    if (evaluacion.Nombre == nombreAeliminar)
-                        aux = evaluacion;
+                    if (evaluacion.Nombre.Equals(nombreAeliminar, StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        NombresRepetidos++;
+                        aux = evaluacion; 
                         porcentajeARestar = evaluacion.Porcentaje1;
+                    }
                 }
-                if (aux != null)
+
+                if (NombresRepetidos == 0 || aux == null)//La lista esta vacia o no se encontro la Evaluacion solicitada
+                {
+                    Console.WriteLine("Evaluacion no encontrada o Lista Vacia");
+                }else if(NombresRepetidos == 1)
                 {
                     Evaluaciones.Remove(aux);
                     TotalPorcentaje -= porcentajeARestar;
                     Console.WriteLine("Evaluacion eliminada correctamente\n");
-                }else
-                    Console.WriteLine("Evaluacion no encontrada, no se pudo eliminar.\n"); 
+                }else if (NombresRepetidos > 1)
+                {
+                    Console.WriteLine("Existe mas de 1 evaluacion con ese nombre!!");
+                    Console.WriteLine("Especifique la Evaluacion a eliminar:\n");
+
+                    foreach (var evaluacion in Evaluaciones){
+                        if(evaluacion.Nombre.Equals(nombreAeliminar, StringComparison.InvariantCultureIgnoreCase))
+                        {
+                            Console.WriteLine("--------------------------------------------------------------");
+                            Console.WriteLine(evaluacion+"\nEsta es la evaluacion que desea Eliminar??? (S/N)");
+                            String eleccion = Console.ReadLine();
+                            if(eleccion.Equals("S",StringComparison.InvariantCultureIgnoreCase))
+                            {
+                                aux = evaluacion;
+                                porcentajeARestar = evaluacion.Porcentaje1;
+                                TotalPorcentaje -= porcentajeARestar;
+                                Console.WriteLine("Evaluacion eliminada correctamente\n");
+                                break;
+                            }else if (eleccion.Equals("N", StringComparison.InvariantCultureIgnoreCase))
+                                Console.WriteLine("Cargando....");
+                            else
+                            {
+                                Console.WriteLine("No es una opcion valida..");
+                                break;
+                            }
+                        }
+                    }
+                    Evaluaciones.Remove(aux);
+                }
         }
     }
 }

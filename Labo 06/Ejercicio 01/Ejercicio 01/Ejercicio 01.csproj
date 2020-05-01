@@ -40,7 +40,6 @@
     <ItemGroup>
         <Compile Include="CalcularNota.cs" />
         <Compile Include="Evaluacion.cs" />
-        <Compile Include="InvalidData.cs" />
         <Compile Include="Laboratorio.cs" />
         <Compile Include="LimitedExceeded.cs" />
         <Compile Include="Parcial.cs" />
