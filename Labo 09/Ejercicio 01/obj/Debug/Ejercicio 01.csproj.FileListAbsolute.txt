@@ -1,0 +1,35 @@
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\Ejercicio_01.exe.config
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\Ejercicio_01.pdb
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio 01.csprojAssemblyReference.cache
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.Properties.Resources.resources
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio 01.csproj.GenerateResource.cache
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.exe
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.pdb
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.Form1.resources
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.RegisterStudent.resources
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio 01.csproj.CopyComplete
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.AddSignature.resources
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.Inscription.resources
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.ViewData.resources
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\Npgsql.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Buffers.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Memory.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Text.Json.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.ValueTuple.dll
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\Npgsql.pdb
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\Npgsql.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Buffers.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Memory.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Text.Json.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\bin\Debug\System.ValueTuple.xml
+C:\Users\Edu1\Desktop\LabosPOO\Labo 09\Ejercicio 01\obj\Debug\Ejercicio_01.exe.config
